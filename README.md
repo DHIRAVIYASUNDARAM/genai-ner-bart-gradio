@@ -57,6 +57,7 @@ iface = gr.Interface(fn=recognize_entities, inputs="text", outputs="json")
 iface.launch()
 ```
 ### OUTPUT:
+![image](https://github.com/user-attachments/assets/8a2a38ba-a4e5-4c3e-bb06-96e89dd6b284)
 
 ### RESULT:
 Thus, the project resulted in a functional NER prototype using a fine-tuned BART model and Gradio for real-time entity recognition, showcasing strong performance and user-friendly deployment.
